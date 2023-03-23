@@ -10,17 +10,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <title>Etch-a-Sketch</title>
+    <title>Etch-A-Sketch</title>
 </head>
 
 <body>
-    <div id="title">Etch-a-Sketch</div>
+    <div id="title">Etch-A-Sketch</div>
     <div id="buttons">
         <button id="reset">Reset</button>
         <div>
             <div id="slider-val"></div>
             <input type="range" min="1" max="100" value="16" class="slider" id="grid-size">
         </div>
+    </div>
+    <div id="modes">
+        <button id="default" class="mode selected-mode">Default</button>
+        <button id="rainbow" class="mode">Rainbow</button>
+        <button id="grayscale" class="mode">Grayscale</button>
     </div>
     <div id="grid"></div>
     <div id="footer">
